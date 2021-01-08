@@ -113,7 +113,6 @@ class WheelOfFortune extends Component {
         .outerRadius(this.width / 2)
         .innerRadius(this.props.innerRadius || 100);
 
-      console.log('COLOR:', index % colors.length)
       return {
         path: instance(arc),
         color: colors[index % colors.length],
